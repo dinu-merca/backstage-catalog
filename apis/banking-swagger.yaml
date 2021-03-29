@@ -32,3 +32,19 @@ paths:
                   $ref: "#/definitions/ccounts"
                 type: array
             type: object
+definitions:
+  accounts:
+    type: object
+    required:
+      - id
+      - name
+      - balance
+    properties:
+      id:
+        type: integer
+        format: int64
+      name:
+        type: string
+      balance:
+        type: number
+        
