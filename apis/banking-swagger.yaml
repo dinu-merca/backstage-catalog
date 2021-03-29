@@ -1,0 +1,34 @@
+swagger: "2.0"
+schemes:
+  - https
+host: api.banking.com
+basePath: /v1
+info:
+  title: Banking
+  version: v1
+externalDocs:
+  url: https://developer.banking.com/
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /accounts:
+    get:
+      description: Retrieve a list of accounts
+      parameters:
+        - description: A comma-separated list of IDs
+          in: query
+          name: ids
+          required: true
+          type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            properties:
+              accounts:
+                items:
+                  $ref: "#/definitions/ccounts"
+                type: array
+            type: object
