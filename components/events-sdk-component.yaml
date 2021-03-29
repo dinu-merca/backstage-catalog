@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: events-sdk
+  description: Events Platfrom SDK
+  tags:
+    - java
+    - JavaScript
+    - dot-net
+    - events
+  links:
+    - url: https://example.com/user
+      title: Examples Users
+      icon: user
+    - url: https://example.com/alert
+      title: Alerts
+      icon: alert
+spec:
+  type: service
+  lifecycle: experimental
+  owner: innersource
+  system: events-platfrom
+  
