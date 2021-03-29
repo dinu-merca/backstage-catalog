@@ -2,10 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: artist-lookup
-  description: Artist Lookup
+  description: Events SDK
   tags:
     - java
-    - data
+    - events
   links:
     - url: https://example.com/user
       title: Examples Users
