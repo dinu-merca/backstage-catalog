@@ -7,3 +7,4 @@ spec:
   targets:
     - ./components/artist-lookup-component.yaml
     - ./components/petstore-component.yaml
+    - ./components/test-component.yaml
