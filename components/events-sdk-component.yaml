@@ -6,7 +6,7 @@ metadata:
   tags:
     - java
     - JavaScript
-    - dot-net
+    - dotnet
     - events
   links:
     - url: https://example.com/user
@@ -20,4 +20,3 @@ spec:
   lifecycle: experimental
   owner: innersource
   system: events-platfrom
-  
