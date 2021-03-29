@@ -51,7 +51,7 @@ spec:
               content:
                 application/json:
                   schema:
-                    $ref: "#/components/schemas/Pets"
+                    $ref: "#/components/schemas/Customers"
             default:
               description: unexpected error
               content:
