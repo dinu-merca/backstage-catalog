@@ -29,7 +29,7 @@ paths:
             properties:
               accounts:
                 items:
-                  $ref: "#/definitions/ccounts"
+                  $ref: "#/definitions/accounts"
                 type: array
             type: object
 definitions:
