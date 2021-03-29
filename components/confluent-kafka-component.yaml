@@ -16,5 +16,5 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: cloud-team
+  owner: team-a
   system: events-platfrom
