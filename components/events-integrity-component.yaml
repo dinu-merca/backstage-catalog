@@ -14,6 +14,6 @@ metadata:
       icon: alert
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: production
   owner: team-a
   system: events-platfrom
