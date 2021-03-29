@@ -5,6 +5,6 @@ metadata:
   description: A collection of all Backstage example components
 spec:
   targets:
-    - ./components/artist-lookup-component.yaml
-    - ./components/petstore-component.yaml
-    - ./components/test-component.yaml
+    - ./components/confluent-kafka-component.yaml
+    - ./components/events-sdk-component.yaml
+    - ./components/events-integrity-component.yaml
